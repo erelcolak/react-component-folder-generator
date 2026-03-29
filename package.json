@@ -1,7 +1,16 @@
 {
-  "name": "react-component-folder-generator",
+  "name": "vscode-react-component-folder-generator",
   "displayName": "React Component Folder Generator",
-  "description": "Generates automatically React component, type, style files via using only right click context menu in explorer panel",
+  "description": "Generates a React component folder context menu",
+  "keywords": [
+    "react",
+    "component",
+    "folder",
+    "file",
+    "tree",
+    "generator"
+  ],
+  "publisher": "erelcolak",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.80.0"
@@ -14,7 +23,7 @@
     "commands": [
       {
         "command": "reactComponentGenerator.generate",
-        "title": "React Component Folder Generator - Yeni Component"
+        "title": "React Component Folder Generator - New Component"
       }
     ],
     "menus": {
