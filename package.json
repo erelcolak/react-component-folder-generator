@@ -1,5 +1,5 @@
 {
-  "name": "vscode-react-component-folder-generator",
+  "name": "react-component-folder-generator",
   "displayName": "React Component Folder Generator",
   "description": "Generates a React component folder context menu",
   "version": "0.0.1",
