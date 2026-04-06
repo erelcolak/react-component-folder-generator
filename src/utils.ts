@@ -44,20 +44,20 @@ export interface ${componentName}Props {
 
 export const contentStyle = (componentName: string) => {
   return `@use "variables" as *;
-  @use "mixins" as *;
+@use "mixins" as *;
 
-  // Elements
-  .${camelCaseName(componentName)} {
-  }
+// Elements
+.${camelCaseName(componentName)} {
+}
 
-  // Variants
-  // alignVariant
-  // colorVariant
-  // styleVariant
-  // sizeVariant
+// Variants
+// alignVariant
+// colorVariant
+// styleVariant
+// sizeVariant
 
-  // Modifiers
+// Modifiers
 
-  // Interactions
+// Interactions
 `;
 };
