@@ -1,6 +1,6 @@
 {
-  "name": "vscode-react-component-folder-generator",
-  "displayName": "React Component Folder Generator",
+  "name": "react-component-folder-generator",
+  "displayName": "React Component Folder & File Tree Generator",
   "description": "Generates a React component folder context menu",
   "keywords": [
     "react",
@@ -42,8 +42,8 @@
     "watch": "tsc -watch -p ./"
   },
   "devDependencies": {
+    "@types/node": "^18.19.130",
     "@types/vscode": "^1.80.0",
-    "@types/node": "18.x",
     "typescript": "^5.1.3"
   }
 }
