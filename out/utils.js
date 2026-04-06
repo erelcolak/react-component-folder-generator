@@ -47,21 +47,21 @@ export interface ${componentName}Props {
 exports.contentType = contentType;
 const contentStyle = (componentName) => {
     return `@use "variables" as *;
-  @use "mixins" as *;
+@use "mixins" as *;
 
-  // Elements
-  .${(0, exports.camelCaseName)(componentName)} {
-  }
+// Elements
+.${(0, exports.camelCaseName)(componentName)} {
+}
 
-  // Variants
-  // alignVariant
-  // colorVariant
-  // styleVariant
-  // sizeVariant
+// Variants
+// alignVariant
+// colorVariant
+// styleVariant
+// sizeVariant
 
-  // Modifiers
+// Modifiers
 
-  // Interactions
+// Interactions
 `;
 };
 exports.contentStyle = contentStyle;
