@@ -1,7 +1,8 @@
 {
   "name": "react-component-folder-generator",
-  "displayName": "React Component Folder & File Tree Generator",
+  "displayName": "React Component Folder with File Tree Generator",
   "description": "Generates a React component folder context menu",
+  "icon": "assets/icon.png",
   "keywords": [
     "react",
     "component",
@@ -11,7 +12,7 @@
     "generator"
   ],
   "publisher": "erelcolak",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.80.0"
   },
